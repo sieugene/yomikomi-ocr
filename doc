@@ -1,6 +1,15 @@
 https://{user}-{repo}.hf.space/docs
 
-Env for space
+Env
 USE_GPU: false (required for free tier, as GPU is unavailable).
 OCR_LANG: japan (optional, already set in code).
 TZ: Asia/Tokyo (optional, for consistency).
+
+
+For postman
+https://huggingface.co/settings/tokens make token
+Authorization Bearer Token -
+Beare {token}
+
+Post
+https://{user}-{repo}.hf.space/ocr
